@@ -107,6 +107,7 @@ export default function Pokedex() {
             <label htmlFor="name" id='textLabel'>Name</label>
             <input 
             type="text"
+            autoComplete='off'
             name='name'
             id='formText' 
             onChange={handleChange} 
